@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'mainapp',
     'products',
     'order',
+    'cart',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,5 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+
+# APPEND_SLASH=False
